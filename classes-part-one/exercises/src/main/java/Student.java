@@ -31,7 +31,7 @@ public class Student {
 
         public void setNumberOfCredits(int numberOfCredits) {
                 this.numberOfCredits = numberOfCredits;
-        }
+0        }
 
         public double getGpa() {
                 return gpa;
