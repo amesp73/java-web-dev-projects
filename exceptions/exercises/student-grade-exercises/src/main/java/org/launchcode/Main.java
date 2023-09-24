@@ -22,13 +22,13 @@ public class Main {
         int studentPoints = 0;
 
         try {
-            studentPoints = CheckFileExtension("");
+            studentPoints = CheckFileExtension(studentFiles.get("Brad"));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
             studentPoints -= 1;
         }
         System.out.println(studentPoints);
-        System.out.println(CheckFileExtension(studentFiles.get("Brad")));
+//        System.out.println(CheckFileExtension(""));
     }
 
     public static void Divide(int x, int y) {
